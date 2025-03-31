@@ -5,22 +5,25 @@ Este repositório contém um mapa interativo que destaca os municípios do estad
 O Programa de Aquisição de Alimentos (PAA) é uma iniciativa do governo brasileiro que visa promover a segurança alimentar e incentivar a agricultura familiar. Este mapa foi desenvolvido para destacar os municípios do Pará que apresentam maior eficiência no programa, baseado em indicadores de desempenho.
 
 Os municípios são classificados em duas categorias:
+
 Beneficiados : Municípios que demonstraram alta eficiência no PAA.
 Não Beneficiados : Municípios que não foram beneficiados ou não atingiram os critérios de eficiência.
 
 Como Funciona o Mapa
+
 O mapa foi criado usando as bibliotecas Leaflet e htmlwidgets no R. Ele exibe os municípios do Pará com as seguintes características:
 
 Cores dos Polígonos :
 Verde (#006d2c): Municípios beneficiados (alta eficiência no PAA).
 Cinza Claro (#f0f0f0): Municípios não beneficiados ou com baixa eficiência.
+
 Rótulos Interativos :
+
 Ao passar o mouse sobre um município, o nome do município será exibido.
+
 Legenda :
+
 Uma legenda no canto inferior direito explica as cores usadas no mapa.
-Instruções de Uso
-Visualizar o Mapa Online
-O mapa está hospedado no Netlify e pode ser acessado diretamente pelo link abaixo:
 
 
 Dados Utilizados
@@ -34,6 +37,7 @@ Estudo: Análise econométrica aplicada ao desempenho do Programa de Aquisição
 
 
 Dependências
+
 Este projeto utiliza as seguintes bibliotecas e ferramentas:
 R Packages :
 leaflet: Para criar o mapa interativo.
@@ -41,11 +45,13 @@ htmlwidgets: Para exportar o mapa como HTML.
 sf: Para manipular dados geoespaciais.
 dplyr: Para processamento de dados.
 
-Ferramentas :
+Ferramentas
+
 RStudio ou terminal R.
 
 
 Contato
+
 Para dúvidas,sugestões ou contribuições, entre em contato:
 
 Nome : Raíssa Rocha
@@ -53,4 +59,5 @@ Email : rairocha01@hotmail.com
 GitHub : Raixu01
 
 Observações Finais
+
 Este mapa foi desenvolvido para facilitar a visualização e análise dos municípios beneficiados pelo PAA no estado do Pará. Esperamos que ele seja útil para pesquisadores, gestores públicos e interessados em políticas públicas de segurança alimentar.
