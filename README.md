@@ -1,4 +1,5 @@
-Mapa Interativo: Municípios paraenses de Maior Eficiência no PAA
+Municípios paraenses de Maior Eficiência no PAA
+
 Este repositório contém um mapa interativo que destaca os municípios do estado do Pará com maior eficiência no Programa de Aquisição de Alimentos (PAA) . O objetivo é fornecer uma visualização geográfica para identificar os municípios beneficiados e suas respectivas classificações de eficiência.
 
 
@@ -9,19 +10,19 @@ Os municípios são classificados em duas categorias:
 Beneficiados : Municípios que demonstraram alta eficiência no PAA.
 Não Beneficiados : Municípios que não foram beneficiados ou não atingiram os critérios de eficiência.
 
-Como Funciona o Mapa
 
 O mapa foi criado usando as bibliotecas Leaflet e htmlwidgets no R. Ele exibe os municípios do Pará com as seguintes características:
 
-Cores dos Polígonos :
+Cores dos Polígonos
+
 Verde (#006d2c): Municípios beneficiados (alta eficiência no PAA).
 Cinza Claro (#f0f0f0): Municípios não beneficiados ou com baixa eficiência.
 
-Rótulos Interativos :
+Rótulos Interativos 
 
 Ao passar o mouse sobre um município, o nome do município será exibido.
 
-Legenda :
+Legenda 
 
 Uma legenda no canto inferior direito explica as cores usadas no mapa.
 
@@ -50,7 +51,6 @@ Ferramentas
 RStudio ou terminal R.
 
 
-Contato
 
 Para dúvidas,sugestões ou contribuições, entre em contato:
 
@@ -58,6 +58,6 @@ Nome : Raíssa Rocha
 Email : rairocha01@hotmail.com
 GitHub : Raixu01
 
-Observações Finais
+
 
 Este mapa foi desenvolvido para facilitar a visualização e análise dos municípios beneficiados pelo PAA no estado do Pará. Esperamos que ele seja útil para pesquisadores, gestores públicos e interessados em políticas públicas de segurança alimentar.
