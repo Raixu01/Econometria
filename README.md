@@ -26,6 +26,14 @@ Legenda
 
 Uma legenda no canto inferior direito explica as cores usadas no mapa.
 
+Instruções de Uso
+
+Visualizar o Mapa Online
+
+O mapa está hospedado no Netlify e pode ser acessado diretamente pelo link abaixo:
+
+Link do Mapa Interativo
+https://github.com/Raixu01/Econometria.git
 
 Dados Utilizados
 
